@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+
+}
+
+.left{
+    flex: 1;
+    width: 30%;
+    background-color: #FD2E2E;
+    display: fixed;
+    padding: 80px;
+    padding-top: 20%;
+    text-align: center;
+    font-size: 64px;
+    color: #FFF2F2;
+
+
+}
+.right {
+    flex: 2;
+    overflow-y: scroll;
+    background-color: #fae8e6;
+}
+
+.Heading p {
+    padding-left: 10%;
+    padding-top: 10%;
+    color: #800606;
+    text-decoration: underline;
+    font-size: x-large;
+
+}
+.Data {
+    padding-left:10%;
+    padding-top: 5%;
+    color: #800606;
+}
