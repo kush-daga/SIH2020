@@ -6,7 +6,9 @@ const Docs = () => {
     return (
         <Container>
             <div className="left">
-                <p style={{ fontWeight: "bold" }}>docLedger</p>
+                <p style={{ fontWeight: "bold", color: "#fff2f2" }}>
+                    docLedger
+                </p>
                 <p style={{ fontSize: "20px", color: "#FFC1C1" }}>
                     "Your health records, our security"
                 </p>
