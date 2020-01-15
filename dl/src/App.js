@@ -8,8 +8,8 @@ import Signin from './components/Signin/Signin';
 class App extends Component {
   render() {
     return(
-      // <Docs />
-      <Signin />
+      <Docs />
+      // <Signin />
     )
   }
 }
