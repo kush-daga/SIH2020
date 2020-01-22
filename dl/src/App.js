@@ -6,14 +6,16 @@ import Docs from "./components/Docs/Docs.jsx";
 import Signup from "./components/Signup/Signup";
 import Dashboard from "./components/Dashboard/Dashboard";
 import AddRecord from "./components/AddRecord/AddRecord";
+import FindDoctor from "./components/FindDoctor/FindDoctor";
 
 class App extends Component {
   render() {
     return(
-      // <Docs /> 
+      <Docs /> 
       // <Signup />
       //  <Dashboard />
-      <AddRecord />
+      // <AddRecord />
+      // <FindDoctor />
     )
   }
 }
