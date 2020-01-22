@@ -4,15 +4,16 @@ import "./App.css";
 import "./components/fonts.css";
 import Docs from "./components/Docs/Docs.jsx";
 import Signup from "./components/Signup/Signup";
-import PMain from "./components/PMain/PMain";
+import Dashboard from "./components/Dashboard/Dashboard";
+import AddRecord from "./components/AddRecord/AddRecord";
 
 class App extends Component {
   render() {
     return(
-      // <Docs />
+      // <Docs /> 
       // <Signup />
-       <PMain />
-     
+      //  <Dashboard />
+      <AddRecord />
     )
   }
 }
