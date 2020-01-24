@@ -7,15 +7,26 @@ import Signup from "./components/Signup/Signup";
 import Dashboard from "./components/Dashboard/Dashboard";
 import AddRecord from "./components/AddRecord/AddRecord";
 import FindDoctor from "./components/FindDoctor/FindDoctor";
+import SymCheck from "./components/SymCheck/SymCheck";
 
 class App extends Component {
+
+  constructor() {
+    super();
+    this.state = {
+      route:'',
+    }
+  }
+
+
   render() {
     return(
-      <Docs /> 
+      // <Docs />  
       // <Signup />
-      //  <Dashboard />
+       <Dashboard />
       // <AddRecord />
       // <FindDoctor />
+      // <SymCheck />
     )
   }
 }

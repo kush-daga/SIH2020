@@ -2,6 +2,7 @@ import React from "react";
 // import "./Docs.css";
 import "tachyons";
 import styled from "styled-components";
+import img1 from "../images/avatar.png";
 
 const Docs = () => {
     return (
@@ -58,6 +59,25 @@ const Docs = () => {
                     </p>
                    
                 </DataDocs>
+                <HeadingDocs>
+                    <p>
+                        <b>Technology behind this marvel</b>
+                    </p>
+                </HeadingDocs>
+                <DataDocs>
+                    IPFS: The interplanetary file system
+                    <br />
+                    <img 
+                        src={img1} 
+                        alt="clinic" 
+                        data-placement="bottom" 
+                        data-toggle="popover" 
+                        data-trigger="hover" 
+                        aria-hidden="true" 
+                        title data-content="A vast majority of us are fools and good for nothing people"
+                        data-original-title="Clinics"
+                     />
+                </DataDocs>
             </RightDocs>
         </ContainerDocs>
     );
@@ -98,7 +118,7 @@ const HeadingDocs = styled.div`
     font-size: x-large;
 `;
 const DataDocs = styled.div`
-    padding-left: 10%;
+    padding-left: 10vw;
     padding-top: 5%;
     color: #800606;
 `;
