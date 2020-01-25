@@ -1,8 +1,4 @@
-# Anouncments
 
-WE ARE PLANING TO MAKE IT LIKE SLACK SO ORGANIZATIONS CAN USE IT FOR FREE. PLEASE FEEL FREE TO ADD THE COMMENTS OR SUGGESTIONS IN SHEET BELOW.
-
-https://docs.google.com/spreadsheets/d/1bBQ3pgr1LPDse0DKMzZptd2H41K-I91R545nmYdMhTY/edit?usp=sharing
 
 # node-chat-one-to-one
 
