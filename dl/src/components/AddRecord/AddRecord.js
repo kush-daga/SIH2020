@@ -8,7 +8,7 @@ const AddRecord = () => {
 
     return(
         <ContainerAR>
-            <div className="Left flex flex-column" style={{width:"20%"}}>
+            <div className="Left flex flex-column" style={{width:"20%",overflowY:"scroll"}}>
                 <ul>
                     <li style={{fontSize:"x-large",fontWeight:"bold"}}>
                         docLedger
@@ -33,7 +33,7 @@ const AddRecord = () => {
                     </li>
                 </ul>
             </div>
-            <div className="Right flex flex-column" style={{backgroundColor:"#fff2f2",color:"#800606",width:"100%",overflow:"hidden"}}>
+            <div className="Right flex flex-column" style={{backgroundColor:"#fff2f2",color:"#800606",width:"100%",overflow:"scroll"}}>
                 <div style={{display:"flex",fontSize:"x-large",paddingLeft:"65vw",paddingTop:"10vh"}}>
                     <img src={img2} width="35vw" height="auto" style={{paddingRight:"1em"}}/>
                     <img src={img1} width="40vw" />

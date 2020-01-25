@@ -11,13 +11,13 @@ const Signup = () => {
                 <p style={{ fontWeight: "bold", color: "#fff2f2" }}>
                     docLedger
                 </p>
-                <p style={{ fontSize: "20px", color: "#FFC1C1" }}>
+                <p style={{ fontSize: "0.25em", color: "#FFC1C1" }}>
                     "Your health records, our security"
                 </p>
                 <Button>
-                    <button type="button" className="link ph3 pv2 mb2 dib white" style={{backgroundColor:"#FFA82E",color:"#fd2e2e",fontFamily:"Poppins",borderRadius:"14px",fontWeight:"bold",boxShadow:"2px 2px #FFA82E",textShadow:"1px 1px #fd2e2e"}}>
+                    
                         About us
-                    </button>
+                    
                 </Button>
             </Left>
 
@@ -77,12 +77,10 @@ const Left = styled.div`
     flex-direction: column;
     width: 30%;
     background-color: #fd2e2e;
-    overflow: hidden;
-    padding: 80px;
-    padding-top: 20%;
+    padding-top: 15vh;
     text-align: center;
 
-    font-size: 64px;
+    font-size: 5.5em;
     color: #fff2f2;
 
 `;
@@ -92,13 +90,16 @@ const Right = styled.div`
     background-color: #fff2f2;
     font-family: Poppins;
 `;
-const Button = styled.div`
-    background-color:#fd2e2e;
+const Button = styled.button`
+    background-color:#fff2f2;
     border: none;
-    color: white;
-    padding:120px;
+    color: #800606 ;
+    padding:0.5em 1em 0.5em 1em;
+    margin-top: 20em;
+    margin-left: 80%;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 30px;
+    font-size: 20px;
+    width: fit-content;
+    border-radius:10px;
 `;

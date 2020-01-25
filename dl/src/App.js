@@ -8,6 +8,7 @@ import Dashboard from "./components/Dashboard/Dashboard";
 import AddRecord from "./components/AddRecord/AddRecord";
 import FindDoctor from "./components/FindDoctor/FindDoctor";
 import SymCheck from "./components/SymCheck/SymCheck";
+import Form from "./components/DynamicForm/DynamicForm";
 
 class App extends Component {
 
@@ -23,10 +24,11 @@ class App extends Component {
     return(
       // <Docs />  
       // <Signup />
-       <Dashboard />
+      //  <Dashboard />
       // <AddRecord />
       // <FindDoctor />
       // <SymCheck />
+      <Form />
     )
   }
 }

@@ -8,55 +8,29 @@ const Docs = () => {
     return (
         <ContainerDocs>
             <LeftDocs>
-                <p style={{ fontWeight: "bold", color: "#fff2f2" }}>
+                <p style={{ fontSize:"5em",fontWeight: "700", color: "#fff2f2",marginBottom:"0.1em",marginTop:"1.25em" }}>
                     docLedger
                 </p>
-                <p style={{fontSize: "20px",color:"#FFC1C1"}}>
+                <p style={{fontSize: "1.3em",color:"#FFC1C1"}}>
                 "Your health records, our security"
                 </p>
 
                 <Button>
-                    <button type="button" className="link ph3 pv2 mb2 dib white" style={{backgroundColor:"#FFA82E",color:"#fd2e2e",fontFamily:"Poppins",borderRadius:"14px",fontWeight:"bold",boxShadow:"2px 2px #FFA82E",textShadow:"1px 1px #fd2e2e",width:"150px",wordSpacing:"10px"}}>
                         Log In
-                    </button>
                 </Button>
             </LeftDocs>
 
             <RightDocs>
                 <HeadingDocs>
-                    <p>
-                        <b>What exactly is docLedger?</b>
+                    <p className="mt6">
+                        What exactly is docLedger?
                     </p>
                 </HeadingDocs>
                 <DataDocs>
                     <p>
-                        This is what you get when you do something insane.....
-                        <br /> Something amazing
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus molestias culpa, repellendus aut iure laudantium nesciunt! Non iure est exercitationem facere magnam maiores. Architecto, ad quis! Dolorem dignissimos omnis, molestiae accusamus voluptatum, rerum consectetur vitae, sit repudiandae perferendis autem placeat? Quidem facilis ea, fugit quo veritatis neque? Alias doloremque, praesentium totam, nostrum corrupti, nihil commodi ad nisi sapiente odit dolorem. Omnis, dolore adipisci commodi maxime officia necessitatibus possimus. Beatae minus suscipit veritatis reiciendis corrupti maiores, ab provident alias labore debitis repudiandae eveniet nihil aperiam dolores numquam maxime ipsa, nam laboriosam quo. Eius ea neque odio culpa sit distinctio impedit adipisci.
                     </p>
-                    <p>
-                        This is what you get when you do something insane.....
-                        <br /> Something amazing
-                    </p>
-                    <p>
-                        This is what you get when you do something insane.....
-                        <br /> Something amazing
-                    </p>
-                    <p>
-                        This is what you get when you do something insane.....
-                        <br /> Something amazing
-                    </p>
-                    <p>
-                        This is what you get when you do something insane.....
-                        <br /> Something amazing
-                    </p>
-                    <p>
-                        This is what you get when you do something insane.....
-                        <br /> Something amazing
-                    </p>
-                    <p>
-                        This is what you get when you do something insane.....
-                        <br /> Something amazing
-                    </p>
+                    
                    
                 </DataDocs>
                 <HeadingDocs>
@@ -64,20 +38,7 @@ const Docs = () => {
                         <b>Technology behind this marvel</b>
                     </p>
                 </HeadingDocs>
-                <DataDocs>
-                    IPFS: The interplanetary file system
-                    <br />
-                    <img 
-                        src={img1} 
-                        alt="clinic" 
-                        data-placement="bottom" 
-                        data-toggle="popover" 
-                        data-trigger="hover" 
-                        aria-hidden="true" 
-                        title data-content="A vast majority of us are fools and good for nothing people"
-                        data-original-title="Clinics"
-                     />
-                </DataDocs>
+                
             </RightDocs>
         </ContainerDocs>
     );
@@ -89,46 +50,45 @@ const ContainerDocs = styled.div`
     height: 100vh;
 `;
 const LeftDocs = styled.div`
-    flex: 1;
+    flex: 2;
     display: flex;
     flex-direction: column;
     width: 30%;
     background-color: #fd2e2e;
-    overflow: hidden;
-    padding: 80px;
-    padding-top: 20%;
     text-align: center;
-    
-    font-size: 64px;
     color: #fff2f2;
-    
 `;
 
 const RightDocs = styled.div`
-    flex: 2;
+    flex: 3;
     overflow-y: scroll;
     background-color: #fff2f2;
     font-family: Poppins;
 `;
 const HeadingDocs = styled.div`
     padding-left: 10%;
-    padding-top: 10%;
+    margin-top: 20px;
     color: #800606;
-    text-decoration: underline;
     font-size: x-large;
+    font-weight: 700;
 `;
 const DataDocs = styled.div`
-    padding-left: 10vw;
-    padding-top: 5%;
-    color: #800606;
+        padding-left: 10%;
+        margin-top: 10px;
+        color: #800606;
+        font-size:large;
+        font-weight: 300;
 `;
-const Button = styled.div`
-    background-color:#fd2e2e;
+const Button = styled.button`
+    background-color:#fff2f2;
     border: none;
-    color: white;
-    padding:120px;
+    color: #800606 ;
+    padding:0.5em 1em 0.5em 1em;
+    margin-top: 20em;
+    margin-left: 80%;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 30px;
+    font-size: 20px;
+    width: fit-content;
+    border-radius:10px;
 `;

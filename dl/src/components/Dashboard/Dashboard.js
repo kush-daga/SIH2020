@@ -41,7 +41,7 @@ const Dashboard = () => {
                 </div>
                 <div className="Up flex" style={{padding:"10px",paddingLeft:"100px"}}>
                     <div className="WelcomeText pa3" style={{fontSize:"xx-large",textAlign:"justify", paddingTop:"4em", paddingLeft:"1.85em"}}>
-                        Hi Kush! <br /> Welcome to your dash..
+                        Hi Kush! <br /> Welcome to your dashboard!
                     </div>
                 </div>
                 <div className="flex" style={{paddingTop:"0.05em",paddingLeft:"70px", justifyContent:"center"}}>
