@@ -6,13 +6,13 @@ const CatInputs = (props) => {
       return (
         <div key={idx}>
           <label htmlFor={catId}>{`Cat #${idx + 1}`}</label>
-          <input
+          <input 
             type="text"
             name={catId}
             data-id={idx}
             id={catId}
             value={props.cats[idx].name} 
-            className="name"
+            className="pa2 ba bg-transparent"
           />
           <label htmlFor={ageId}>Age</label>
           <input
