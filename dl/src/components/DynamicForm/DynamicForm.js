@@ -53,24 +53,11 @@ class Form extends React.Component {
           </ul>
         </div>
         <div className="Right flex flex-column"  style={{backgroundColor:"#fff2f2",color:"#800606",width:"100%",overflow:"hidden"}}>
-          <form onSubmit={this.handleSubmit} onChange={this.handleChange} className="shadow-2 " style={{margin:"3em", padding:"4em",fontSize:"x-large",width:"fit-content",borderRadius:"2em"}}>
-            <div>
-               <div>
-                    <label htmlFor="name">Symptom:</label>
-                    <input clasName="pa2 input-reset ba bg-transparent" type="text" name="owner" id="owner" value={owner} />
-               </div>
-                <div>
-                    <label htmlFor="description">Description</label>
-                    <input
-                        type="text"
-                        name="description"
-                        id="description"
-                        value={description}
-                    />
-                </div>
-                <button onClick={this.addCat}>Add new cat</button>
+          <form onSubmit={this.handleSubmit} onChange={this.handleChange} className="shadow-2 " style={{margin:"4em",fontSize:"x-large",width:"fit-content",borderRadius:"2em", justifyContent:"center",alignItems:"center"}}>
+            <div style={{margin:"1.5em",padding:"2em"}}>
+                <button onClick={this.addCat} style={{backgroundColor:"#FFDCA2",borderRadius:"30px", color:"#800606"}} >Add new Symptom</button>
                 <CatInputs cats={cats} />
-                <input type="submit" value="Submit" />
+                <input type="submit" value="Submit" style={{backgroundColor:"#FFDCA2",borderRadius:"30px", color:"#800606"}} />
             </div>
           </form>
         </div>

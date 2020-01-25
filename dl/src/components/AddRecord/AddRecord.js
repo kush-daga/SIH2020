@@ -79,6 +79,9 @@ const AddRecord = () => {
                             style={{borderRadius:"30px",}}
                          />
                      </div>
+                     <button>
+                         Submit
+                     </button>
                     </form>
                 </div>
             </div>
