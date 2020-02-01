@@ -7,7 +7,7 @@ const Dash = () => {
     return(
         <ContainerDash>
             <div className="flex flex-row" >
-                <Card>
+                <Card className=".shadow-2">
                     Someone
                 </Card>
                 <Card>
@@ -31,5 +31,5 @@ const Card = styled.div`
     height:3em;
     color:white;
     background-color:#40f5d4;
-    box-shadow:
+    box-shadow: 0px 0px 8px 2px rgba( 0, 0, 0, 0.2 );
 `;

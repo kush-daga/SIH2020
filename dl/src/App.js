@@ -58,10 +58,13 @@ class App extends Component {
                   <Icon></Icon>
                   <Icon></Icon>
                   </div>
-                <input type="text" name="search" placeholder="Search something" style={{height:"2.5em",borderRadius:"50px",width:"19em"}} />
+                  <div style={{paddingTop:"0.5em"}}>
+                    <input type="text" name="search" placeholder="Search something" style={{height:"2.5em",borderRadius:"50px",width:"19em"}} />
+                  </div>
+                
 
               </div>
-                <Form />
+                <Dash />
             </Right>
       </ContainerApp>
 
