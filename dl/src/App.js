@@ -10,6 +10,8 @@ import FindDoctor from "./components/FindDoctor/FindDoctor";
 import SymCheck from "./components/SymCheck/SymCheck";
 import Form from "./components/DynamicForm/DynamicForm";
 import DocMain from "./components/DocMain/DocMain";
+import NavBar from "./components/NavBar/NavBar";
+import styled from "styled-components";
 
 class App extends Component {
 
@@ -19,50 +21,44 @@ class App extends Component {
       route:'docs',
     }
   }
-  componentWillMount() {
-    this.getData()
-  }
-
-  getData() {
-    // create a new XMLHttpRequest
-    var xhr = new XMLHttpRequest()
-
-    // get a callback when the server responds
-    xhr.addEventListener('load', () => {
-      // update the state of the component with the result here
-      console.log(xhr.responseText)
-    })
-    // open the request with the verb and the url
-    xhr.open('GET', 'https://dog.ceo/api/breeds/list/all')
-    // send the request
-    xhr.send()
-  }
 
 
 
 
-  onRouteChange = (route) => {
-    if(route==='signout') {
-      this.setState({isSignedIn:'false'});
-    } else if(route==='docs'){
-      this.setState({isSignedIn:'true'});
-    }
-    this.setState( {route:route} );
-  }
-
-  onButtonSubmit = () => {
-    console.log("This is the doctor's id:1234 ")
-  }
 
 
   render() {
-    const { route }=this.state;
     return(
-      // <Dashboard />
-      // <Signup />
-      // <Docs />  
-      <AddRecord />
-      // <Form />
+      <div className="flex flex-row">
+         <div className="Left flex flex-column" style={{width:"20%"}}>
+                <ul>
+                    <Li style={{fontSize:"x-large",fontWeight:"bold"}}>
+                        docLedger
+                    </Li>
+                    <Li>
+                        Home
+                    </Li>
+                    <Li style={{backgroundColor:"rgba(128,6,6,0.65)", color:"#fff2f2",borderRadius:"55px"}}>
+                        Dashboard
+                    </Li>
+                    <Li>
+                        Find Doctors
+                    </Li>
+                    <Li>
+                        Add Record
+                    </Li>
+                    <Li>
+                        View Records
+                    </Li>
+                    <Li>
+                        Chat
+                    </Li>
+                </ul>
+            </div>
+            <Right>
+                <Dashboard />
+            </Right>
+      </div>
 
       
     )
@@ -71,3 +67,13 @@ class App extends Component {
 
 export default App;
 //We have created two components: Docs, Signup , now we need to create main dashboard
+const Left = styled.div`
+  display:flex;
+`;
+const Right = styled.div`
+display: flex;
+`;
+const Li = styled.li`
+  height:2.75em;
+  text-align:inherit;
+`;
