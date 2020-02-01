@@ -1,7 +1,6 @@
 import React from "react";
 import "tachyons";
 import styled from "styled-components";
-import "./Dashboard.css";
 import img1 from "../images/avatar.png";
 import img2 from "../images/notification.jpg";
 const Dashboard = () => {
@@ -45,6 +44,7 @@ export default Dashboard;
 const ContainerDash = styled.div`
     display: flex;
     height:100vh;
+    width:100%;
     font-family:Poppins;
 `;
 

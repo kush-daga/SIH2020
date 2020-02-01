@@ -8,31 +8,6 @@ const DocMain = ( { onButtonSubmit } ) => {
 
     return(
         <ContainerDM>
-            <div className="Left flex flex-column" style={{width:"20%",overflowY:"scroll"}}>
-                <ul>
-                    <li style={{fontSize:"x-large",fontWeight:"bold"}}>
-                        docLedger
-                    </li>
-                    <li>
-                        Home
-                    </li>
-                    <li>
-                        Dashboard
-                    </li>
-                    <li>
-                        Find Doctor
-                    </li>
-                    <li style={{backgroundColor:"rgba(128,6,6,0.65)", color:"#fff2f2",borderRadius:"55px"}}>
-                        Add Records
-                    </li>
-                    <li>
-                        View Records
-                    </li>
-                    <li>
-                        Chat
-                    </li>
-                </ul>
-            </div>
             <div className="Right flex flex-column" style={{backgroundColor:"#fff2f2",color:"#800606",width:"100%",overflow:"scroll"}}>
                 <div style={{display:"flex",fontSize:"x-large",paddingLeft:"65vw",paddingTop:"10vh"}}>
                     <img src={img2} width="35vw" height="auto" style={{paddingRight:"1em"}}/>
@@ -70,6 +45,7 @@ export default DocMain;
 const ContainerDM = styled.div`
     display: flex;
     height:100vh;
+    width:100%;
     font-family:Poppins;
 `;
 

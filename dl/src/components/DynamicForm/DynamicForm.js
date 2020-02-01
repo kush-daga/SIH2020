@@ -31,28 +31,7 @@ class Form extends React.Component {
     let { owner, description, cats } = this.state;
     return (
       <ContainerDF>
-        <div className="Left flex flex-column" style={{ width: "20%" }}>
-          <ul>
-            <li style={{ fontSize: "x-large", fontWeight: "bold" }}>
-              docLedger
-            </li>
-            <li>Home</li>
-            <li
-              style={{
-                backgroundColor: "rgba(128,6,6,0.65)",
-                color: "#fff2f2",
-                borderRadius: "55px"
-              }}
-            >
-              Dashboard
-            </li>
-            <li>Find Doctors</li>
-            <li>Add Record</li>
-            <li>View Records</li>
-            <li>Chat</li>
-          </ul>
-        </div>
-        <div className="Right flex flex-column"  style={{backgroundColor:"#fff2f2",color:"#800606",width:"100%",overflow:"hidden"}}>
+        <div className="Right flex flex-column"  style={{backgroundColor:"#fff2f2",color:"#800606",width:"100%",overflowY:"scroll"}}>
           <form onSubmit={this.handleSubmit} onChange={this.handleChange} className="shadow-2 " style={{margin:"4em",fontSize:"x-large",width:"fit-content",borderRadius:"2em", justifyContent:"center",alignItems:"center"}}>
             <div style={{margin:"1.5em",padding:"2em"}}>
                 <button onClick={this.addCat} style={{backgroundColor:"#FFDFF7",borderRadius:"30px", color:"#800606"}} >Add new Symptom</button>
@@ -69,5 +48,6 @@ export default Form;
 const ContainerDF = styled.div`
     display: flex;
     height:100vh;
+    width:100vw;
     font-family:Poppins;
 `;
