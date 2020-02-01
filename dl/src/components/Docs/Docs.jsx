@@ -28,16 +28,16 @@ const Docs = () => {
                 </HeadingDocs>
                 <DataDocs>
                     <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus molestias culpa, repellendus aut iure laudantium nesciunt! Non iure est exercitationem facere magnam maiores. Architecto, ad quis! Dolorem dignissimos omnis, molestiae accusamus voluptatum, rerum consectetur vitae, sit repudiandae perferendis autem placeat? Quidem facilis ea, fugit quo veritatis neque? Alias doloremque, praesentium totam, nostrum corrupti, nihil commodi ad nisi sapiente odit dolorem. Omnis, dolore adipisci commodi maxime officia necessitatibus possimus. Beatae minus suscipit veritatis reiciendis corrupti maiores, ab provident alias labore debitis repudiandae eveniet nihil aperiam dolores numquam maxime ipsa, nam laboriosam quo. Eius ea neque odio culpa sit distinctio impedit adipisci.
+                    A decentralized permissioned blockchain network , docLedger would comprise of a web portal that will allow users to sign up and create their medical wallet, which will consist of the patient’s whole medical history. They can then allow doctors/insurance companies to view their health records, while still having the right to revoke the permission anytime. We would also have an ML trained recommendation system and an analyzer to predict diseases from the symptoms and assure fast treatment. All of this will rely on blockchain technology and follow HIPAA standards.
                     </p>
                     
                    
                 </DataDocs>
-                <HeadingDocs>
+                {/* <HeadingDocs>
                     <p>
                         <b>Technology behind this marvel</b>
                     </p>
-                </HeadingDocs>
+                </HeadingDocs> */}
                 
             </RightDocs>
         </ContainerDocs>

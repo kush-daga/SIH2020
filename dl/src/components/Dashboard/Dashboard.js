@@ -20,13 +20,13 @@ const Dashboard = () => {
                         Dashboard
                     </li>
                     <li>
-                        Find Doctor
+                        Find Doctors
                     </li>
                     <li>
                         Add Record
                     </li>
                     <li>
-                        View Record
+                        View Records
                     </li>
                     <li>
                         Chat

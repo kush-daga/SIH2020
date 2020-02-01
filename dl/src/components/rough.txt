@@ -1,0 +1,47 @@
+<DataDocs>
+                    IPFS: The interplanetary file system
+                    <br />
+                    <img 
+                        src={img1} 
+                        alt="clinic" 
+                        data-placement="bottom" 
+                        data-toggle="popover" 
+                        data-trigger="hover" 
+                        aria-hidden="true" 
+                        title data-content="A vast majority of us are fools and good for nothing people"
+                        data-original-title="Clinics"
+                     />
+                </DataDocs>
+
+
+
+
+                <label htmlFor={ageId}>Age</label>
+          <input
+            type="text"
+            name={ageId}
+            data-id={idx}
+            id={ageId}
+            value={props.cats[idx].age} 
+            className="age"
+          />
+
+
+
+
+          <div>
+                    <label htmlFor="name">Symptom:</label>
+                    <input clasName="pa2 input-reset ba bg-transparent" type="text" name="owner" id="owner" value={owner} />
+               </div>
+                <div>
+                    <label htmlFor="description">Description</label>
+                    <input
+                        type="text"
+                        name="description"
+                        id="description"
+                        value={description}
+                    />
+                </div>
+
+
+                      // <DocMain onButtonSubmit={this.onButtonSubmit} />

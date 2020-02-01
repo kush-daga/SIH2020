@@ -46,18 +46,18 @@ class Form extends React.Component {
             >
               Dashboard
             </li>
-            <li>Find Doctor</li>
+            <li>Find Doctors</li>
             <li>Add Record</li>
-            <li>View Record</li>
+            <li>View Records</li>
             <li>Chat</li>
           </ul>
         </div>
         <div className="Right flex flex-column"  style={{backgroundColor:"#fff2f2",color:"#800606",width:"100%",overflow:"hidden"}}>
           <form onSubmit={this.handleSubmit} onChange={this.handleChange} className="shadow-2 " style={{margin:"4em",fontSize:"x-large",width:"fit-content",borderRadius:"2em", justifyContent:"center",alignItems:"center"}}>
             <div style={{margin:"1.5em",padding:"2em"}}>
-                <button onClick={this.addCat} style={{backgroundColor:"#FFDCA2",borderRadius:"30px", color:"#800606"}} >Add new Symptom</button>
+                <button onClick={this.addCat} style={{backgroundColor:"#FFDFF7",borderRadius:"30px", color:"#800606"}} >Add new Symptom</button>
                 <CatInputs cats={cats} />
-                <input type="submit" value="Submit" style={{backgroundColor:"#FFDCA2",borderRadius:"30px", color:"#800606"}} />
+                <input type="submit" value="Submit" style={{backgroundColor:"#FFDFF7",borderRadius:"30px", color:"#800606"}} />
             </div>
           </form>
         </div>
