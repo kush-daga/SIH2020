@@ -8,9 +8,6 @@ const Dash = () => {
         <ContainerDash>
             <div className="flex flex-row" >
                 <Card>
-                    Something
-                </Card>
-                <Card>
                     Someone
                 </Card>
                 <Card>
@@ -29,6 +26,10 @@ const ContainerDash = styled.div`
 const Card = styled.div`
     display:flex;
     flex-direction:row;
-    margin:5em;
+    margin:0.5em;
     width:10em;
+    height:3em;
+    color:white;
+    background-color:#40f5d4;
+    box-shadow:
 `;

@@ -61,7 +61,7 @@ class App extends Component {
                 <input type="text" name="search" placeholder="Search something" style={{height:"2.5em",borderRadius:"50px",width:"19em"}} />
 
               </div>
-                <Dash />
+                <Form />
             </Right>
       </ContainerApp>
 

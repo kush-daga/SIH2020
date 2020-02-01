@@ -1,7 +1,6 @@
 import React from "react";
 import "tachyons";
 import styled from "styled-components";
-import "./AddRecord.css";
 import img1 from "../images/avatar.png";
 import img2 from "../images/notification.jpg";
 const AddRecord = () => {
